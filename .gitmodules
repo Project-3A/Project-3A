@@ -1,0 +1,3 @@
+[submodule "doc-3A/wiki"]
+	path = doc-3A/wiki
+	url = git@github.com:Project-3A/Project-3A.wiki.git
