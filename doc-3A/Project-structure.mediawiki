@@ -1,0 +1,13 @@
+
+* doc-3A (Eclipse project)
+** pages (submodule, gitignored) -- contains Javadoc
+** scripts -- contains scripts for
+*** generating javadoc
+*** updating wiki from and to server
+*** updating pages/javadoc from and to server
+** wiki (submodule, gitignored)
+** Project-structure.mediawiki -- this file
+
+* ... other projects
+
+
