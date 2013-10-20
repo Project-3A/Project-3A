@@ -1,5 +1,6 @@
 @echo Pulling changes from %1.
-@echo This assumes you have git installed on your system and in PATH (executing the command 'git' in console writes the possible git operations).
+@echo This assumes you have git installed on your system and in PATH (executing the command 'git' in console writes the possible git operations)
+@echo and that you have your private SSH key for Github access in $HOME/.ssh/githubkey
 @echo If anything goes wrong, please use the command line to execute commands in this file.
 @echo Working in:
 @cd
