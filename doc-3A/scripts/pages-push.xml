@@ -10,11 +10,11 @@
   
   You should have received a copy of the GNU General Public License along with Project-3A.  If not, see <http://www.gnu.org/licenses/>.
 -->
-<project name="tATAmI-PC" default="wiki-pages" basedir="../">
-	<target name="wiki-pages">
-		<exec osfamily="Windows" vmlauncher="false" dir="doc-tATAmI-PC/pages/" executable="cmd">
+<project name="Project-3A" default="website-push" basedir="../../">
+	<target name="website-push">
+		<exec osfamily="Windows" vmlauncher="false" dir="doc-3A/website/" executable="cmd">
 		    <arg value="/c"/>
-		    <arg value="start ..\..\scripts\additional\push.bat pages gh-pages"/>
+		    <arg value="start ..\..\doc-3A\scripts\additional\push.bat website gh-pages"/>
 		</exec>
 	</target>
 </project>

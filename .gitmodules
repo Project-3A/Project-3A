@@ -1,3 +1,6 @@
 [submodule "doc-3A/wiki"]
 	path = doc-3A/wiki
 	url = git@github.com:Project-3A/Project-3A.wiki.git
+[submodule "doc-3A/website"]
+	path = doc-3A/website
+	url = git@github.com:Project-3A/Project-3A.git

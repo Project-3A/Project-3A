@@ -10,9 +10,9 @@
   
   You should have received a copy of the GNU General Public License along with Project-3A.  If not, see <http://www.gnu.org/licenses/>.
 -->
-<project name="tATAmI-PC" default="pages-git" basedir="../">
-	<target name="pages-git">
-		<exec osfamily="Windows" vmlauncher="false" dir="doc-tATAmI-PC/pages/" executable="cmd">
+<project name="Project-3A" default="website-git" basedir="../../">
+	<target name="website-git">
+		<exec osfamily="Windows" vmlauncher="false" dir="doc-3A/website/" executable="cmd">
 		    <arg value="/c"/>
 		    <arg value="start cmd"/>
 		</exec>
