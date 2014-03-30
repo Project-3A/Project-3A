@@ -4,3 +4,9 @@
 [submodule "doc-3A/website"]
 	path = doc-3A/website
 	url = git@github.com:Project-3A/Project-3A.git
+[submodule "envived-server"]
+	path = envived-server
+	url = https://github.com/asorici/envived.git
+[submodule "envived-client"]
+	path = envived-client
+	url = https://github.com/asorici/envived-client/
